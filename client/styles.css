@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background: url(stars.png);
+    background-size: cover;
+    position: relative;
+}
+
+
+
+h1, h3, p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 65px;
+    padding-bottom: 80px;
+}
+
+h3 {
+    font-size: 35px
+}
+
+p {
+    font-size: 25px;
+}
+
+a {
+    color: rgb(0 255 161);
+}
+
+.content {
+    padding-bottom: 180px;
+}
+

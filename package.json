@@ -1,0 +1,30 @@
+{
+  "name": "eliminote",
+  "version": "1.0.0",
+  "description": "School work manager",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thetateman/eliminote.git"
+  },
+  "author": "Tate Smith",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "helmet": "^5.1.0",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.1.7",
+    "socket.io": "^4.4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/thetateman/eliminote/issues"
+  },
+  "homepage": "https://github.com/thetateman/eliminote#readme"
+}
