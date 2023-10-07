@@ -89,6 +89,18 @@ app.use(`/${blogRoot}/:name`, (req, res) => {
   res.sendFile(path.resolve(`${__dirname}/../client/${name}/${name}.html`));
 });
 
+app.use("/blog-post-list", (req, res) => {
+  // Todo: get this list dynamically from post metadata
+  let list = [
+    {
+      title: "How to Deploy a Full-stack Web App in 5 Minutes",
+      url: `/${blogRoot}/full-stack-website-deployment-speedrun`,
+    },
+    { title: "Create or Die", url: `/${blogRoot}/create-or-die` },
+  ];
+  return res.json({ list: list });
+});
+
 /*
 
 app.use('/login', (req, res) => {
